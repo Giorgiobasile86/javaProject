@@ -1,5 +1,7 @@
 package Races;
 
+
+
 public class Humanoid extends People{
 
     public Humanoid(String name, int age, String origini, char indicator) {
@@ -23,8 +25,6 @@ public class Humanoid extends People{
             super(name, age, origini, 'D');
             this.casata = casata;
         }
-
-        public void attack(){}
     }
 
     public static class Elf extends Humanoid{
